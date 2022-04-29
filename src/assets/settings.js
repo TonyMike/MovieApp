@@ -2,8 +2,8 @@ export const settings = {
   dots: true,
   infinite: true,
   speed: 500,
-  slidesToShow: 6,
-  slidesToScroll: 3,
+  slidesToShow: 5,
+  slidesToScroll: 2,
   responsive: [
     {
       breakpoint: 1024,
