@@ -12,9 +12,29 @@
     color: $font-primary;
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Tapestry', cursive;
 }
 .user-image, .user-image img{
     height: 30px;
     width: 30px;
     border-radius: 50%;
+}
+.search-bar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+ 
+    form{
+        display: flex;
+        justify-content: center;
+
+        input{
+            padding: 5px;
+            width: 100%;
+        }
+    button{
+        padding: 10px;
+        outline: none;
+    }
+    }
 }

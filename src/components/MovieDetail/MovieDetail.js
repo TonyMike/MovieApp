@@ -8,6 +8,7 @@ import {
 } from './../../redux/redux-slice/movieSlice'
 import './MovieDetail.scss'
 import { FaCalendar, FaFilm, FaStar, FaThumbsUp } from 'react-icons/fa'
+import { JellyTriangle } from '@uiball/loaders'
 
 const MovieDetail = () => {
   const dispatch = useDispatch()
@@ -22,7 +23,12 @@ const MovieDetail = () => {
   return (
     <div className='movie-section'>
       {Object.keys(movieDetails).length === 0 ? (
-        'loading'
+        <JellyTriangle
+        size={40}
+        lineWeight={5}
+        speed={2} 
+        color="orange" 
+       />
       ) : (
         <>
           <div className='section-left'>

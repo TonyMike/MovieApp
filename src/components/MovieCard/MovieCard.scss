@@ -4,6 +4,8 @@
     background-color: $secondary-color;
     cursor: pointer;
     transition: all 0.3s;
+    min-height: 468px;
+    margin: 10px;
 
     &:hover{
         transform: scale(1.08);
