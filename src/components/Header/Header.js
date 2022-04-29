@@ -37,7 +37,7 @@ const Header = () => {
             <input
               type='text'
               value={term}
-              placeholder='Search Movies or Show'
+              placeholder='Search Movie or Show'
               onChange={inputField}
             />
             <button type='submit'>
